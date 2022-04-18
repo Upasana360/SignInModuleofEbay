@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-18T17:00:48Z" name="Suite" finished-at="2022-04-18T17:04:34Z" duration-ms="226028">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@34cf294c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-04-18T17:00:48Z" name="Test" finished-at="2022-04-18T17:04:34Z" duration-ms="226028">
+      <class name="StepDefinition.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:30:48Z" name="setUpClass" finished-at="2022-04-18T22:30:48Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:30:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-18T22:31:37Z" duration-ms="48545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Sign In is successful or not using valid email and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  the Sign In functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:31:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-18T22:32:21Z" duration-ms="43484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User getting an error message  or not using in valid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  the Sign In functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:32:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-18T22:33:07Z" duration-ms="46428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User getting an error message  or not using valid email and in valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  the Sign In functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:33:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-18T22:33:50Z" duration-ms="42965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check user can not able to Sign in using blank email id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  the Sign In functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:33:50Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-18T22:34:34Z" duration-ms="43601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check user can not able to Sign in using valid email id and blank password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  the Sign In functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:StepDefinition.TestRunner@34cf294c]" started-at="2022-04-18T22:34:34Z" name="tearDownClass" finished-at="2022-04-18T22:34:34Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefinition.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
